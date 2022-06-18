@@ -8,9 +8,11 @@ import {
   Code,
   Grid,
   theme,
+  Button,
 } from "@chakra-ui/react";
 import { ColorModeSwitcher } from "./ColorModeSwitcher";
 import { Logo } from "./Logo";
+import { FaRobot } from "react-icons/fa";
 
 export const App = () => (
   <ChakraProvider theme={theme}>
@@ -19,9 +21,6 @@ export const App = () => (
         <ColorModeSwitcher justifySelf="flex-end" />
         <VStack spacing={8}>
           <Logo h="40vmin" pointerEvents="none" />
-          <Text>
-            it's time for the <Code fontSize="xl">build market lol</Code>
-          </Text>
           <Link
             color="teal.500"
             href="https://twitter.com/JoshCStein"
@@ -31,6 +30,22 @@ export const App = () => (
           >
             gm, I'm just having fun 👋
           </Link>
+          <br />
+          <Text>
+            it's time for the <Code fontSize="lg">build market lol</Code>
+          </Text>
+          <br />
+          <Text fontSize="2xl">
+            no minting here, but you should check out this AI-powered image
+            generator powered by DALL-E 😄
+          </Text>
+          <Button
+            leftIcon={<FaRobot />}
+            onClick={() => (window.location.href = `https://dallemini.com/`)}
+          >
+            DALL-E Mini
+          </Button>
+          <br />
         </VStack>
       </Grid>
     </Box>
