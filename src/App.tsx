@@ -30,7 +30,6 @@ export const App = () => (
           >
             gm, I'm just having fun 👋
           </Link>
-          <br />
           <Text>
             it's time for the <Code fontSize="lg">build market lol</Code>
           </Text>
