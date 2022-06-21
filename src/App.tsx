@@ -31,7 +31,7 @@ export const App = () => (
             gm, I'm just having fun 👋
           </Link>
           <Text>
-            it's time for the <Code fontSize="lg">build market lol</Code>
+            it's time for the <Code fontSize="lg">build market</Code>
           </Text>
           <br />
           <Text fontSize="2xl">
