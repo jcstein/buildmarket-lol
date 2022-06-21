@@ -7,12 +7,12 @@ import {
   VStack,
   Code,
   Grid,
-  theme,
   Button,
 } from "@chakra-ui/react";
 import { ColorModeSwitcher } from "./ColorModeSwitcher";
 import { Logo } from "./Logo";
 import { FaRobot } from "react-icons/fa";
+import theme from "./theme";
 
 export const App = () => (
   <ChakraProvider theme={theme}>
